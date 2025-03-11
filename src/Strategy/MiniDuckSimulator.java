@@ -1,4 +1,4 @@
-package Duck;
+package Strategy;
 
 /**
  * Implements the STRATEGY design pattern

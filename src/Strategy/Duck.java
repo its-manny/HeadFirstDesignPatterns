@@ -1,4 +1,4 @@
-package Duck;
+package Strategy;
 
 public abstract class Duck {
 
