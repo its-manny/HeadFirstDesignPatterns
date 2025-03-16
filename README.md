@@ -3,5 +3,6 @@ A repo of completed exercised and notes relating to my study of "Head First Desi
 ## Patterns
 ### Strategy
 > The strategy pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently of clients that use it.
-
+### Observer
+> Defines a one-to-many dependency between objects so that when one object changes state, all its dependants are notified and updated automatically.
 
