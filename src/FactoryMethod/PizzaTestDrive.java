@@ -1,10 +1,8 @@
-package Factory;
+package FactoryMethod;
 
-/**
- * Implements the FACTORY pattern.
- * Defines as interface for creating an object, but lets subclasses decide which class to instantiate.
- * Factory Method lets a class defer instantiation to subclasses.
- */
+/// Implements the FACTORY METHOD pattern.
+/// Defines as interface for creating an object, but lets subclasses decide which class to instantiate.
+/// Factory Method lets a class defer instantiation to subclasses.
 public class PizzaTestDrive {
 
     public static void main(String[] args) {
