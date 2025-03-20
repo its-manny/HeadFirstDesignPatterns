@@ -16,3 +16,5 @@ A repo of completed exercises and notes relating to my study of "Head First Desi
 ### Abstract Factory
 > Provides and interface for creating families of related or dependent objects without specifying their concrete
 > classes.
+### Singleton
+> Ensures a class has only one instance, and provides a global point of access to it.
