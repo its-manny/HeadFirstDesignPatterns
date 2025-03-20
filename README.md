@@ -13,3 +13,6 @@ A repo of completed exercises and notes relating to my study of "Head First Desi
 ### Factory Method
 > Defines as interface for creating an object, but lets subclasses decide which class to instantiate. Factory Method
 > lets a class defer instantiation to subclasses.
+### Abstract Factory
+> Provides and interface for creating families of related or dependent objects without specifying their concrete
+> classes.
