@@ -18,3 +18,6 @@ A repo of completed exercises and notes relating to my study of "Head First Desi
 > classes.
 ### Singleton
 > Ensures a class has only one instance, and provides a global point of access to it.
+### Command
+> Encapsulates a request as an object, thereby letting you parameterize other objects with different requests, queue 
+> or log requests, and support undoable operations.
