@@ -29,6 +29,9 @@ public class RemoteLoader {
         StereoOffCommand stereoOffCommand = new StereoOffCommand(stereo);
         remoteControl.setCommand(2, stereoOnWithDVDCommand, stereoOffCommand);
 
+        MacroCommand macroCommand = new MacroCommand(new Command[]{lightOnCommand, garageDoorOpenCommand, stereoOnWithDVDCommand});
+        remoteControl.setCommand(3, macroCommand, new NoCommand());
+
         System.out.println(remoteControl);
 
         remoteControl.onButtonWasPushed(0);
@@ -41,6 +44,9 @@ public class RemoteLoader {
 
         remoteControl.undoButtonWasPushed();
         remoteControl.undoButtonWasPushed();
+
+        System.out.println("\n--- Testing MacroCommand ---\n");
+        remoteControl.onButtonWasPushed(3);
 
     }
 }

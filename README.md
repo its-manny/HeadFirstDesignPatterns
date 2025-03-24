@@ -21,3 +21,9 @@ A repo of completed exercises and notes relating to my study of "Head First Desi
 ### Command
 > Encapsulates a request as an object, thereby letting you parameterize other objects with different requests, queue 
 > or log requests, and support undoable operations.
+### Adapter
+> Converts the interface of a class into another interface the clients expect. Adapter lets classes work together that
+> couldn't otherwise because of incompatible interfaces.
+> 
+> Note: This pattern can be implemented as object adapters (using composition) or class adapters (using multiple-
+> inheritance).
