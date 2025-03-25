@@ -27,3 +27,6 @@ A repo of completed exercises and notes relating to my study of "Head First Desi
 > 
 > Note: This pattern can be implemented as object adapters (using composition) or class adapters (using multiple-
 > inheritance).
+### Facade
+> Provides a unified interface to a set of interfaces in a subsystem. Facade defines a higher level interface that 
+> makes the subsystem easier to use.
