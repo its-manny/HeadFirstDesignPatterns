@@ -30,3 +30,6 @@ A repo of completed exercises and notes relating to my study of "Head First Desi
 ### Facade
 > Provides a unified interface to a set of interfaces in a subsystem. Facade defines a higher level interface that 
 > makes the subsystem easier to use.
+### Template Method
+>Defines the skeleton of an algorithm in a method, deferring some steps in subclasses. Template Method lets subclasses
+>redefine certain steps of an algorithm without changing the algorithm's structure.
