@@ -36,3 +36,6 @@ A repo of completed exercises and notes relating to my study of [Head First Desi
 ### Iterator
 >Provides a way to access the elements of an aggregate object sequentially without exposing its underlying 
 >representation.
+### Composite
+>Allows you to compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat 
+>individual objects compositions of objects uniformly.
