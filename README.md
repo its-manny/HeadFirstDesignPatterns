@@ -1,5 +1,5 @@
 # Java Design Patterns
-A repo of completed exercises and notes relating to my study of "Head First Design Patterns - 2nd Edition"
+A repo of completed exercises and notes relating to my study of [Head First Design Patterns - 2nd Edition](https://www.oreilly.com/library/view/head-first-design/9781492077992/)
 ## Patterns
 ### Strategy
 > The strategy pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy 
