@@ -33,3 +33,6 @@ A repo of completed exercises and notes relating to my study of "Head First Desi
 ### Template Method
 >Defines the skeleton of an algorithm in a method, deferring some steps in subclasses. Template Method lets subclasses
 >redefine certain steps of an algorithm without changing the algorithm's structure.
+### Iterator
+>Provides a way to access the elements of an aggregate object sequentially without exposing its underlying 
+>representation.
