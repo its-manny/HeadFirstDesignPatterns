@@ -1,10 +1,13 @@
 package State;
 
+import java.util.Random;
+
 public class GumballMachine {
     private final State soldOutState;
     private final State noQuarterState;
     private final State hasQuarterState;
     private final State soldState;
+    private final State winnerState;
 
     private State state;
     int count = 0;
@@ -14,6 +17,8 @@ public class GumballMachine {
         noQuarterState = new NoQuarterState(this);
         hasQuarterState = new HasQuarterState(this);
         soldState = new SoldState(this);
+        winnerState = new WinnerState(this);
+
         state = soldOutState;
 
         this.count = count;
@@ -64,6 +69,9 @@ public class GumballMachine {
         return soldState;
     }
 
+    public State getWinnerState() {
+        return winnerState;
+    }
 
     public int getCount() {
         return count;

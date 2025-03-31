@@ -1,5 +1,9 @@
 package State;
 
+/**
+ * Implements the STATE Pattern.
+ * Allows an object to alter its behaviour when its internal state changes. the object will appear to change its class.
+ */
 public class GumballTest {
 
     public static void main(String[] args) {
