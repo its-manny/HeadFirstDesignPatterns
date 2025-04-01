@@ -41,3 +41,5 @@ A repo of completed exercises and notes relating to my study of [Head First Desi
 >individual objects compositions of objects uniformly.
 ### State
 > Allows an object to alter its behaviour when its internal state changes. the object will appear to change its class.
+### Proxy
+> Provides a surrogate or placeholder for another object and controls access to it.
