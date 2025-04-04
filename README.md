@@ -43,3 +43,6 @@ A repo of completed exercises and notes relating to my study of [Head First Desi
 > Allows an object to alter its behaviour when its internal state changes. the object will appear to change its class.
 ### Proxy
 > Provides a surrogate or placeholder for another object and controls access to it.
+### Compound
+> Combines two or more patterns into a solution that solves a recurring or general problem.
+> e.g. Model View Controller.
